@@ -1,0 +1,26 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 20px;
+    margin-bottom:20px;
+    display: flex;
+    
+}
+
+div{
+    border: 20px solid transparent;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box{
+    background-color: red;
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    flex: auto;
+}

@@ -1,0 +1,183 @@
+.luar{
+    background-color: blue;
+    padding: 10px;
+}
+*{
+    padding:0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+div{
+    border: 1px solid transparent;
+}
+.dalam{
+    padding: 10px;
+    background-color: red;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+/* body{
+    padding: 2%;
+} */
+
+.kotak{
+    /* width: 33%; */
+    flex: 1;
+    height: 150px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    font-weight: 900;
+    font-size: large;
+    justify-content: center;
+}
+.kotak:nth-child(odd){
+    background-color: orchid;
+}
+.kotak:nth-child(even){
+    background-color: royalblue;
+}
+.kotakbesar{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container{
+    background-color: black;
+    display: flex;
+
+    padding-right: 5%;
+    padding-left: 5%;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+}
+.kotaja{
+    flex: 2;
+}
+.kotak2{
+    background-color: brown;
+}
+.kotak3{
+    /* background-color: burlywood; */
+    color: white;
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.jumbotron{
+    display: flex;
+    /* background-color: burlywood; */
+    padding: 40px 140px 0px 140px;
+    /* margin-left: 80px; */
+}
+.w-50{
+    width: 50%;
+}
+.Price {
+    font-size: 33.6px;
+    margin-bottom: 10px;
+}
+.kanan h3{
+    font-size: 57px;
+    margin-bottom: 10px;
+}
+.tulis{
+    font-size: 17px;
+    line-height: 30.4px;
+    margin-bottom: 30px;
+}
+.kiri{
+    padding-left: 50px;
+}
+.btn-close{
+    background-color: black;
+    color: white;
+    margin-right: 20px;
+    font-size: 13px;
+    font-weight: 800;
+    width: 23%;
+    height: 50px;
+    border: 1px solid black;
+}
+.btn-watch{
+    background-color: #febf43;
+    color: black;
+    font-size: 13px;
+    font-weight: 800;
+    width: 23%;
+    height: 50px;
+    border: 1px solid  #febf43;
+}
+.watch{
+    transition: 500ms;
+    color: white;
+}
+.btn-watch:hover{
+    cursor: pointer;
+}
+.btn-watch:hover .watch{
+    transform:translate(10px,0);
+    color: black;
+}
+.btn-close:hover{
+    cursor: pointer;
+}
+.close{
+    transition: 500ms;
+}
+.btn-close:hover .close{
+    transform:translate(10px,0) ;
+}
+
+.container2{
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+}
+.box{
+    flex: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 300px;
+}
+
+
+/* for tablet */
+@media only screen and (max-width:768px) {
+    .kotak2{
+        background-color: rgb(224, 185, 11);
+    }
+    .kotak3{
+        display: none;
+    }
+    .bar{
+        color: white;
+    }
+    .kiri{
+        padding-left: 0px;
+    }
+    .jumbotron{
+        flex-direction: column;
+        padding: 20px 70px 0px 70px;
+        margin-bottom: 10px;
+    }
+    .w-50{
+        width: 100%;
+    }
+}
+
+/* for tablet */
+
+/* for smartphone */
+@media only screen and (max-width:576px){
+    .kotak2{
+        background-color: rgb(61, 224, 11);
+    }
+}
+/* smartphone */

@@ -1,0 +1,150 @@
+:root{
+    --warnautama: #f29ba7;
+    --panjang:20px;
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+  
+}
+
+/* div{
+    border: 1px solid orange;
+} */
+.navbar{
+    background-color: black;
+    color: white;
+}
+.navbar > ul > li > a{
+    color: white;
+
+}
+/* .navbar a{
+    color: red;
+} */
+
+h2 {
+    color: orange;
+}
+#avanza {
+    color: rgb(0, 0, 0)
+}
+.mobil {
+    color: purple;
+}
+.box .robin{
+    background-color: yellow;
+    color: green;
+    font-weight: bold;
+}
+.box > .robin{
+    background-color: yellow;
+    color: red;
+    font-weight: bold;
+}
+
+
+.robin{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: var(--warnautama) ;
+    height: 60px ;
+    width: 50%;
+    color: black;
+    margin-bottom: 10px;
+    
+}
+.ronin{
+    background-color: yellow;
+    height: 60px;
+    width: 50%;
+}
+
+.tebalmerah{
+    color: red;
+    font-weight: 900;
+}
+
+/* .robin,.ronin{
+    opacity: 50%;
+} */
+/* .box{
+    padding-left: 10px;
+} */
+
+ul{
+    list-style-type: none;
+}
+.box1 {
+    height: 100px;
+    width: 100px;
+    margin: 50px;
+    background-color: purple;
+    transition: 900ms;
+}
+.fontblack{
+    color: black;
+}
+
+.box1:hover{
+    /* transform: scale(2, 2); */
+    /* transform: translate(200px, 0); */
+    background-color: cyan;
+    cursor: pointer;
+
+}
+
+main >div > p {
+    color: red; 
+    font-family: Impact;
+    font-size: 30px
+}
+.togoogle{
+    color: black;
+    text-decoration: none;
+}
+
+.togoogle:active{
+    color: red;
+}
+.togoogle:visited{
+    color: purple;
+}
+.togoogle:hover{
+    color: rosybrown;
+}
+.signin {
+    border: var(--warnautama) 2px solid ;
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    text-transform: capitalize;
+    font-size: 20px;
+    border-radius: 10px;
+    color: var(--warnautama);
+    font-weight: 900;
+    transition: 700ms;
+}
+.signin:hover{
+    background-color: var(--warnautama);
+    color: white;
+    cursor: pointer;
+}
+/* .signin:focus{
+    outline: none;
+} */
+h1 + p +p {
+    color: red;
+    font-family: Impact;
+    font-size: 30px
+ }
+.pd-1{
+    padding: 5px;
+}
+.pd-3{
+    padding: 10px;
+}
+input:focus{
+    outline:1px red solid;
+    background-color: lightgreen;
+
+}
