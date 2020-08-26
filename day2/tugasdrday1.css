@@ -5,11 +5,11 @@
     display: flex;
     color: white;
     top: 0px;
-    left: 0px;
+    left: 0px; 
     right: 0px;
     align-items: center;
     justify-content: space-between;
-}
+} 
 .icon{
     margin: 20px;
 }
