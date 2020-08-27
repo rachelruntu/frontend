@@ -1,0 +1,15 @@
+/* .kotak:nth-child(odd){
+
+}
+.kotak:nth-child(even){
+
+}
+/* div{
+
+} */ 
+.foto{
+    transition: 1s;
+}
+.foto:hover{
+    transform: scale(1.1);
+}
