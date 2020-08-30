@@ -27,7 +27,7 @@
 .dropdown {
     position: relative;
     text-align: end;
-    display: inline-block;
+    /* display: inline-block; */
     font-size: 12px;
 }
 .dropdown-content a:hover {
@@ -81,8 +81,8 @@
     /* transform: translate(10px,0); */
 }
 .isi{    
-    width:100%; 
-    height:750px;
+    width: 100%; 
+    height: 750px;
 }
 .isivideo{
     width: 100%;
@@ -104,7 +104,7 @@
     font-weight: 800;
     width: 20%;
     height: 50px;
-    border-color: white;
+    border-color: transparent;
 }
 .film{
     transition: 500ms;
@@ -122,38 +122,72 @@
     margin-bottom: 10px;
 }
 .iconbiru{
-    height: 200px;
-    margin-left: 80px;
+    height: 20px;
+    margin-left: 180px;
+    margin-right: 180px;
+    font-size: 15px;
 }
 .textbiru{
-    font-size: 30px;
+    font-size: 25px;
  
 }
 .tebalbiru{
     color: black;
     font-weight: 900;
-    font-size: 100px;
+    font-size: 50px;
     margin-bottom: 10px;
 }
 .container2{
-    margin-right: 10%;
-    margin-left: 10%;
+    margin-right: 14%;
+    margin-left: 15%;
     margin-top: 200px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     display: flex;
     height: 200px;
+    font-weight: 800;
+    font-size: 25px;
 }
 .box{
     flex: auto;
-    padding-left: 10px;
+    padding-left: 5px;
     padding-right: 10px;
     height: 100px;
+    color: black;
+    transition: 400ms;
+    margin-right: 50px;  
+    text-align: center ;  
 }
-.tulisan{
+
+.box:hover{
+    background-color: white;
+    color: rgb(206, 206, 206);
+    /* transform: translate(10px,0); */
+}
+.button{
+    background-color: black;
+    color: white;
+    border: black;
+    height: 40px;
+    width: 200px;
+    margin-left: 220px ;
+    margin-bottom: 40px ;   
+}
+.button:hover{
+    cursor: pointer;
+}
+.goyang{
+    transition: 500ms;
+}
+.button:hover .goyang{
+    transform:translate(10px,0) ;
+}
+
+/* .tulisan{
     color: black;
     font-size: 10px;
     font-weight: 100px;
-}
+    text-align: center ;
+} */
 .jumbotron{
     display: flex;
     background-color: #ffefd3;
@@ -161,19 +195,20 @@
     height: 500px;
 }
 .Price {
-    font-size: 33.6px;
+    font-size: 25px;
     /* margin-bottom: 10px; */
     margin-top: 40px;
 
 }
 .kanan{
-    font-size: 57px;
+    font-size: 40px;
     margin-bottom: 10px;
     width: 50%;
     margin-top: 20px;
 }
+
 .tulis{
-    font-size: 17px;
+    font-size: 14px;
     line-height: 30.4px;
     margin-bottom: 30px;
 }
@@ -225,28 +260,36 @@
 
 .boxbaru{
     color: black;
-    height: 800px;
+    height: 250px;
     width: 100%;
-    z-index: -1;
-    display: flex;
+    /* z-index: -1; */
+    /* display: flex; */
+    margin-left: 15%;
+    /* margin-right: 1%; */
+
 }
 .box1{
     
     height: 70px;
-    width: 100%;
+    width: 40%;
     font-size: 35px;
     font-weight: 700;
-    margin-left: 180px;
+    /* margin-left: 200px; */
+}
+.box1:hover{
+    background-color: white;
+    color: rgb(206, 206, 206);
+    /* transform: translate(10px,0); */
 }
 .box2{
     background-color: transparent;
-    width: 50%;
+    width: 60%;
     height: 30px;
     color: black;
-    font-size: 15px;
+    font-size: 12px;
 }
 .boxA{
-    width: 50%;
+    width: 100%;
     height: 800px;
     display: flex;
 }
@@ -262,5 +305,226 @@
 
 }
 .fontfooter{
+    font-size: 50px;
+}
+.bolduber{
+    font-weight: 800;
+}
+.jumbotron2{
+    display: flex;
+    background-color: #dff7e6;
+    height: 500px;
+    margin-right: 120px;
+}
+.boxijokiri{
     font-size: 40px;
+    margin-bottom: 10px;
+    width: 50%;
+    margin-left: 150px;
+    margin-top: 20px;
+    /* margin-right: 120px; */
+
+}
+
+.boxkananijo{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 200px;
+    width: 50%;
+}
+.match {
+    font-size: 25px;
+    /* margin-bottom: 10px; */
+    margin-top: 40px;
+
+}
+.isian{
+    font-size: 14px;
+    line-height: 30.4px;
+    margin-bottom: 30px;
+}
+
+.btn-closer{
+    background-color: black;
+    color: white;
+    margin-right: 20px;
+    font-size: 13px;
+    font-weight: 800;
+    width: 35%;
+    height: 40px;
+    border: 1px solid black;
+}
+.btn-watcher{
+    background-color: #47b274;
+    color: black;
+    font-size: 13px;
+    font-weight: 800;
+    width: 35%;
+    height: 40px;
+    border: 1px solid  #47b274;
+}
+.watcher{
+    transition: 500ms;
+    color: white;
+}
+.btn-watcher:hover{
+    cursor: pointer;
+}
+.btn-watcher:hover .watcher{
+    transform:translate(10px,0);
+    color: black;
+}
+.btn-closer:hover{
+    cursor: pointer;
+}
+.closer{
+    transition: 500ms;
+}
+.btn-closer:hover .closer{
+    transform:translate(10px,0) ;
+}
+
+
+.boxlagi{
+    color: black;
+    height: 250px;
+    width: 100%;
+    /* z-index: -1; */
+    /* display: flex; */
+    margin-left: 15%;
+    margin-top: 5%;
+    /* margin-right: 1%; */
+
+}
+.boxsatu{
+    
+    height: 70px;
+    width: 40%;
+    font-size: 35px;
+    font-weight: 700;
+    /* margin-left: 200px; */
+}
+.boxsatu:hover{
+    background-color: white;
+    color: rgb(206, 206, 206);
+    /* transform: translate(10px,0); */
+}
+.boxdua{
+    background-color: transparent;
+    width: 60%;
+    height: 30px;
+    color: black;
+    font-size: 12px;
+}
+.boxa{
+    width: 100%;
+    height: 800px;
+    display: flex;
+}
+
+.jumbotron3{
+    display: flex;
+    background-color: #eadfff;
+    margin-left: 150px;
+    height: 500px;
+}
+.boxkiriungu{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 50px;
+    width: 50%;
+}
+.boxkananungu{
+    font-size: 40px;
+    margin-bottom: 10px;
+    width: 50%;
+    margin-top: 20px;
+}
+.open {
+    font-size: 25px;
+    /* margin-bottom: 10px; */
+    margin-top: 40px;
+
+}
+
+.tulislagi{
+    font-size: 14px;
+    line-height: 30.4px;
+    margin-bottom: 30px;
+}
+
+.btn-closed{
+    background-color: black;
+    color: white;
+    margin-right: 20px;
+    font-size: 13px;
+    font-weight: 800;
+    width: 23%;
+    height: 50px;
+    border: 1px solid black;
+}
+.btn-watched{
+    background-color: #ae9eff;
+    color: black;
+    font-size: 13px;
+    font-weight: 800;
+    width: 23%;
+    height: 50px;
+    border: 1px solid  #ae9eff;
+}
+.watched{
+    transition: 500ms;
+    color: white;
+}
+.btn-watched:hover{
+    cursor: pointer;
+}
+.btn-watched:hover .watched{
+    transform:translate(10px,0);
+    color: black;
+}
+.btn-closed:hover{
+    cursor: pointer;
+}
+.closed{
+    transition: 500ms;
+}
+.btn-closed:hover .closed{
+    transform:translate(10px,0) ;
+}
+
+.boxagainb{
+    
+    color: black;
+    height: 250px;
+    width: 100%;
+    margin-left: 15%;
+    margin-top: 5%; 
+
+    /* margin-left: 200px; */
+}
+.boxsatub{
+    
+    height: 70px;
+    width: 40%;
+    font-size: 35px;
+    font-weight: 700;
+    /* margin-left: 200px; */
+}
+.boxsatub:hover{
+    background-color: white;
+    color: rgb(206, 206, 206);
+    /* transform: translate(10px,0); */
+}
+.boxduab{
+    background-color: transparent;
+    width: 60%;
+    height: 30px;
+    color: black;
+    font-size: 12px;
+}
+.boxb{
+    width: 100%;
+    height: 800px;
+    display: flex;
 }

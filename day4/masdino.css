@@ -1,0 +1,62 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* navbar start */
+body{
+    background-color: rgb(231, 231, 231) !important;
+    padding-left: calc(15% + 2px);
+}
+.navbar-kiri{
+    background-color: #fff;
+    height: 100vh;
+    width: 15%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+.menu .isimenu{
+    height: 50px;
+    color: #afafaf;
+    font-weight: bolder;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+}
+.menu .isimenu:hover{
+    color: #007bff;
+    cursor: pointer;
+    background-color:#b4d8ff23 ;
+}
+ul {
+    list-style: none; /* Remove default bullets */
+}
+
+ul .a1::before  {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: green; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    font-size: 40px !important;
+
+}
+ul .a2::before  {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: red; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    font-size: 40px !important;
+
+}
+/* navbar end */
+/* yang kanna */
+/* .kiriaja{
+    padding-left: 2px;
+} */
+.kananaja{
+    padding-left: 2px !important;
+}
+/* yang kanan end */

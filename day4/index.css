@@ -1,0 +1,145 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+:root{
+    --warnafont:#233164;
+    --secondaryfont:#464f67;
+    --gradien:linear-gradient(90deg, rgba(146,158,236,1) 13%, rgba(187,189,235,1) 46%, rgba(213,214,250,1) 86%)
+}
+/* div{
+    border: 1px solid orange;
+} */
+body{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+/* style for header */
+.text-primary{
+    color: var(--warnafont);
+}
+.icon{
+    font-weight: 800;
+    font-size: 2em;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+.menukanan{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+.menukanan > .menuisi{
+    text-transform: capitalize;
+    color: var(--secondaryfont);
+    padding-top: 10px;
+    /* display: flex;
+    align-items: center; */
+}
+.menukanan > .menuisi:hover{
+    cursor: pointer;
+}
+.mt-6{
+    margin-top: 2%;
+}
+.width-40{
+    width: 40%;
+}
+/* end header */
+
+/* jumbotron1 start */
+
+.jumbotron{
+    display: flex;
+}
+.jumbotron .content{
+    width: 50%;
+}
+.p-6{
+    padding: 10% 12% 10% 4.3%;
+}
+.platform{
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: var(--secondaryfont);
+}
+.foto{
+    margin-top: -50px;
+    margin-left: -120px;
+    background: linear-gradient(90deg, rgba(146,158,236,1) 13%, rgba(187,189,235,1) 46%, rgba(213,214,250,1) 86%);
+    height: 115%;
+    border-radius: 50px;
+}
+.bekerja{
+    font-size: 45px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    margin-top: 20px;
+}
+.warnain{
+    background: -webkit-linear-gradient(14deg, rgba(146,158,236,1) 21%, rgba(187,189,235,1) 46%, rgba(213,214,250,1) 86%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+p{
+    font-size: 12px;
+    text-align: left;
+    line-height: 30px;
+    margin-right: 100px;
+    margin-top: 30px;
+    color: rgb(168, 169, 206);
+}
+.mulai{
+    background: var(--gradien);
+    border: 1px solid transparent;
+    width: 170px;
+    height: 50px;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: bolder;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+}
+.mulai:focus{
+    outline: none;
+}
+.mulai:hover{
+    cursor: pointer;
+}
+/* jumbotron1 end */
+/* for smartphone */
+@media only screen and (max-width:576px){
+    .jumbotron{
+        flex-direction: column;
+    }
+    .jumbotron .content{
+        width: 100%;
+    }
+    .or1{
+        order:2;
+    }
+    .or2{
+        order: 1;
+    }
+    .foto{
+        margin-top: 0px;
+        margin-left: 0px;
+        /* background: linear-gradient(90deg, rgba(146,158,236,1) 13%, rgba(187,189,235,1) 46%, rgba(213,214,250,1) 86%); */
+    }
+    .menukanan{
+        /* width: 90%; */
+        padding-right: 5%;
+    }
+    .width-40{
+        width: 100%;
+        margin-bottom: 4%;
+    }
+}
+/* smartphone */
